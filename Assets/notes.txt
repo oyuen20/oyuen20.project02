@@ -1,0 +1,33 @@
+/* 📱 When the screen is smaller than 768px (tablet/phone) */
+@media (max-width: 768px) {
+  .text {
+    position: relative;  /* remove absolute positioning */
+    left: 0;
+    width: 100%;
+    top: auto;
+    margin: 20px 0;
+    padding: 20px;
+  }
+}
+
+/for img adjustment
+.headimg {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* same as page background */
+}
+
+.headerimg {
+    display: block;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border: none;
+    outline: none;
+    margin: 0;
+    filter: brightness(30%);
+    opacity: 0.6; /* use decimal for consistency */
+}
+
+for top nav: make div transparent, but becomes opaque as u scroll 

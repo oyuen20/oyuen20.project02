@@ -1,0 +1,11 @@
+/* 📱 When the screen is smaller than 768px (tablet/phone) */
+@media (max-width: 768px) {
+  .text {
+    position: relative;  /* remove absolute positioning */
+    left: 0;
+    width: 100%;
+    top: auto;
+    margin: 20px 0;
+    padding: 20px;
+  }
+}

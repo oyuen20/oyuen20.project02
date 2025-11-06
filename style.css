@@ -1,0 +1,311 @@
+body{
+    background-color: #E0E2DB;
+    color: #2E3532;
+}
+
+a{
+    color: #2E3532;
+}
+
+p, a{
+    font-family: Caviar Dreams;
+}
+
+p{
+    font-size: 21px;
+}
+
+h1{
+    font-family: Gralice Roman;
+    text-align: center;
+    z-index: 1;
+    background-color: transparent;
+    font-size: 40px;
+    padding-top: 50px;
+}
+
+.line{
+    margin-left: 550px;
+    margin-right: 550px;
+    border-bottom: 2px solid #999b9a;
+    border-radius: 50px;
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+/* .left{
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    height: 300px;
+    z-index: 1;
+}*/
+
+
+.title{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 70px;
+    text-shadow: 0 0 10px #ffffff;
+}
+
+.headimg{
+    height: 300px;
+    object-fit: cover;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.headerimg{
+    display: block;
+    margin: auto;
+    margin-top: -100px;
+    width: 100%;
+    filter: brightness(50%);
+    opacity: 50%;
+    overflow: hidden;
+}
+
+.shops, .drinks{
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.maingrid{
+    display: grid;
+    grid-template-columns: auto;
+    column-gap: 100px;
+    margin: 30px 100px;
+}
+
+.left, .text1{
+    grid-row: inherit;
+    grid-column-start: 2;
+}
+
+.left, .right{
+    height: 300px;
+}
+
+.text, .right{
+    grid-row: inherit;
+    grid-column-start: 3; 
+}
+
+.storewebsite{
+    grid-column-start: 3;
+    justify-self: start;
+    margin-left: 50px;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #2E3532;
+}
+
+.storewebsite:hover{
+    color: #E0E2DB;
+    background-color: #2E3532;
+}
+
+.drinks{
+    padding-top: 50px;
+}
+
+.logo1, .drink1{
+    grid-row: inherit;
+    grid-column-start: 2;
+}
+
+.logo2, .drink2{
+    grid-row: inherit;
+    grid-column-start: 3;
+}
+
+.logo3, .drink3{
+    grid-row: auto;
+    grid-column-start: 4;
+}
+
+.shopname{
+    font-family: Hanyi;
+}
+
+ul, li{
+    position: relative;
+    top: 0%;
+    background-color: transparent;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.home{
+    position: fixed;
+    bottom: 5%;
+    left: 3%;
+    padding: 20px; 
+    text-decoration: none;      
+    border: 2px solid #2E3532;
+}
+
+.home:hover{
+    background-color: #2E3532;
+    color: #E0E2DB;
+}
+
+a{
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.2s;
+}
+
+a:hover{
+    transform: scale(1.25);
+}
+
+a{
+    padding-top: 20px;
+}
+
+.nav{
+    position: sticky;
+    top: 0px;
+    left: 20%;
+    height: 60px;
+    z-index: 1;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+.nav.scrolled {
+    background-color: #c5c7c1;
+}
+
+.logo{
+    height: 100px;
+    transition: 0.2s;
+}
+
+.logo:hover{
+    transform: scale(1.25);
+}
+
+
+h2{
+    text-align: center;
+    font-family: Gralice Roman;
+    font-size: 35px;
+}
+
+.stars {
+  color: rgb(80, 100, 155);             /* star color */
+  font-size: 70px;         /* star size */
+  letter-spacing: 5px;     /* space between stars */
+  text-align: center;      /* center on page */
+  text-shadow: 0 0 10px rgb(228, 226, 212); /* glowing effect */
+  margin-top: 125px;
+}
+
+.star{
+  display: inline-block;
+  letter-spacing: 0vw;
+  animation: wave 2s infinite;
+}
+
+.stars span:nth-child(1){
+  animation-delay: 0s;
+}
+
+.stars span:nth-child(2){
+  animation-delay: 0.2s;
+}
+
+.stars span:nth-child(3){
+  animation-delay: 0.4s;
+}
+
+.stars span:nth-child(4){
+  animation-delay: 0.6s;
+}
+
+.stars span:nth-child(5){
+  animation-delay: 0.8s;
+}
+
+@keyframes wave {
+    0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-30px);
+  }
+ 
+}
+
+.drink{
+    height: 300px;
+}
+
+.drink1 p, .drink2 p, .drink3 p{
+    padding-right: 20px;
+}
+
+.bobashops{
+    position: relative;
+    margin-top: 50px;
+    padding-bottom: 80px;
+}
+
+.wickedimg{
+    height: 300px;
+}
+
+.desc{
+    padding: 50px;
+}
+
+.cntext{
+    font-family: Gen Jyuu;
+}
+
+.location{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.map{
+    position: absolute;
+    left: 25%;
+    width: 50%;
+    margin-right: 200px;
+    padding-bottom: 200px;
+    padding-top: 20px;
+}
+
+@font-face {
+    font-family: Gralice Roman;
+    src: url(Assets/Fonts/gralice-roman.regular.ttf);
+}
+
+@font-face {
+    font-family: Caviar Dreams;
+    src: url(Assets/Fonts/CaviarDreams.ttf);
+}
+
+@font-face {
+    font-family: Hanyi;
+    src: url(Assets/Fonts/HanyiSentyTang\ Regular.ttf);
+}
+
+@font-face {
+    font-family: Gen Jyuu;
+    src: url(Assets/Fonts/Gen\ Jyuu\ Gothic\ Monospace\ Light.ttf);
+}
+
